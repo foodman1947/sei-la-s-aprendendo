@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+header{
+    text-align: center;
+}
+.w50{
+    width: 100%;
+}
+.w33{
+    width: 100%;
+    border: 1px solid black;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu{
+    width:100%;
+    background-color: gray;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80px;
+}
+@keyframes anim{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+    to{
+        background-color: rgb(255, 255, 255);
+    }
+}
+.banner{
+    width:100%;
+    height: 300px;
+    background-color: turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.banner button{
+    padding: 20px 60px;
+    background-color: green;
+    font-size: 30px;
+}
+
+.produtos{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.item img{
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+@media screen and (min-width:668px){
+    .w50{
+        width: 50%;
+    }
+
+ 
+    .item{
+        width:33.3%;
+        padding: 10px 10px;
+    }
+    .item img{
+        width: 80%;
+    }
+    
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .azul{
+            background-color:blue !important;
+        }
+        .roxo{
+            background-color: rgb(113, 0, 117)!important;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+
+            
+                   
+        }
+        .box1{
+            flex-basis: 100px;
+        }
+        .box2{
+            flex-grow: 3;
+        }
+        .box4{
+            flex-grow: 1;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="flex" >
+        <div class="box1 roxo" style="flex:2 2 20%">aaaaaaa</div>
+        <div class="box2" style="flex:2 2 20%" >aaaaaaaaaa</div>
+        <div class="box3 azul" style="flex:2 2 20%">aaaaaaa</div>
+        
+        
+    </div>
+</body>
+</html>

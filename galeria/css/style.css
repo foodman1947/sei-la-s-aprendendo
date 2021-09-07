@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.w33{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+@media screen and (min-width:768px){
+    .wraper >img{
+        width: 33.3%;
+    }   
+    .wraper{
+        background-color: red;
+    }
+}
+
+
+

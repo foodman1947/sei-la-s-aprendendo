@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .flex-conteiner{
+            border:2px solid blue;
+            height: 200px;
+            width: 100%;
+            max-width:1200px;
+            margin:0 auto;
+            display:flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+            
+        }
+        .flex-item1{
+            border: 2px solid red;
+            flex-basis:auto;
+
+        }
+        .flex-item2{
+            border: 2px solid red;
+            flex-basis: 20%;
+
+
+        }
+        .flex-item3{
+            border: 2px solid red;
+            flex-basis: 20%;
+            
+        }
+        .flex-item4{
+            border: 2px solid red;
+            flex-basis: 20%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-conteiner">
+        <div class="flex-item1">111</div>
+        <div class="flex-item2">222</div>
+        <div class="flex-item3">333</div>
+        <div class="flex-item4">444</div>
+    </div>
+    
+</body>
+</html>
